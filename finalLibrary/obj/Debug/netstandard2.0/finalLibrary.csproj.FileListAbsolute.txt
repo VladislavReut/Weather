@@ -1,0 +1,11 @@
+C:\Users\prost\source\repos\finalLibrary\obj\Debug\netstandard2.0\finalLibrary.AssemblyInfoInputs.cache
+C:\Users\prost\source\repos\finalLibrary\obj\Debug\netstandard2.0\finalLibrary.AssemblyInfo.cs
+C:\Users\prost\source\repos\finalLibrary\bin\Debug\netstandard2.0\finalLibrary.deps.json
+C:\Users\prost\source\repos\finalLibrary\bin\Debug\netstandard2.0\finalLibrary.dll
+C:\Users\prost\source\repos\finalLibrary\bin\Debug\netstandard2.0\finalLibrary.pdb
+C:\Users\prost\source\repos\finalLibrary\bin\Debug\netstandard2.0\Ninject.dll
+C:\Users\prost\source\repos\finalLibrary\bin\Debug\netstandard2.0\OOP_Program_lib.dll
+C:\Users\prost\source\repos\finalLibrary\bin\Debug\netstandard2.0\OOP_Program_lib.pdb
+C:\Users\prost\source\repos\finalLibrary\obj\Debug\netstandard2.0\finalLibrary.csproj.CopyComplete
+C:\Users\prost\source\repos\finalLibrary\obj\Debug\netstandard2.0\finalLibrary.dll
+C:\Users\prost\source\repos\finalLibrary\obj\Debug\netstandard2.0\finalLibrary.pdb

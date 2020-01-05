@@ -1,0 +1,8 @@
+C:\Users\prost\source\repos\OOP_Program_lib\bin\Debug\netstandard2.0\OOP_Program_lib.deps.json
+C:\Users\prost\source\repos\OOP_Program_lib\bin\Debug\netstandard2.0\OOP_Program_lib.dll
+C:\Users\prost\source\repos\OOP_Program_lib\bin\Debug\netstandard2.0\OOP_Program_lib.pdb
+C:\Users\prost\source\repos\OOP_Program_lib\obj\Debug\netstandard2.0\OOP_Program_lib.AssemblyInfoInputs.cache
+C:\Users\prost\source\repos\OOP_Program_lib\obj\Debug\netstandard2.0\OOP_Program_lib.AssemblyInfo.cs
+C:\Users\prost\source\repos\OOP_Program_lib\obj\Debug\netstandard2.0\OOP_Program_lib.dll
+C:\Users\prost\source\repos\OOP_Program_lib\obj\Debug\netstandard2.0\OOP_Program_lib.pdb
+C:\Users\prost\source\repos\OOP_Program_lib\obj\Debug\netstandard2.0\OOP_Program_lib.csprojAssemblyReference.cache

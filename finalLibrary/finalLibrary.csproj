@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\Downloads\Json120r3\Bin\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject">
+      <HintPath>..\OOP_Program_lib\bin\Debug\netstandard2.0\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="OOP_Program_lib">
+      <HintPath>..\OOP_Program_lib\bin\Debug\netstandard2.0\OOP_Program_lib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
