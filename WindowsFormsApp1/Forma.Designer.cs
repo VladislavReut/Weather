@@ -200,7 +200,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button1);
             this.Name = "Forma";
-            this.Text = "Forma";
+            this.Text = "5";
             this.Load += new System.EventHandler(this.Forma_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

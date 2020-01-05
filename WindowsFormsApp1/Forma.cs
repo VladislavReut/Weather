@@ -31,14 +31,13 @@ namespace WindowsFormsApp1
                 
             });
             t1.Start();
-            Thread t2 = new Thread(() =>
-            {
+            
+           
                 foreach (var it in list)
                 {
                     comboBox1.Items.Add(it.name);
                 }
-            });
-            t2.Start();
+            
             
             comboBox1.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             comboBox1.AutoCompleteSource = AutoCompleteSource.CustomSource;
@@ -47,15 +46,24 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string city = comboBox1.SelectedItem.ToString();
-            Forecast forecast = weatherStatus.GetForecast(city);
-
-            label1.Text = forecast.dateTime.ToString();
-            label2.Text = forecast.country;
-            label3.Text = forecast.name;
-            label4.Text = forecast.temperature;
-            label5.Text = forecast.description;
-            label6.Text = forecast.humidity;
+            Forecast forecast;
+            try
+            {
+                string city = comboBox1.SelectedItem.ToString();
+                forecast = weatherStatus.GetForecast(city);
+                label1.Text = forecast.dateTime.ToString();
+                label2.Text = forecast.country;
+                label3.Text = forecast.name;
+                label4.Text = forecast.temperature;
+                label5.Text = forecast.description;
+                label6.Text = forecast.humidity;
+            
+            }
+            catch (NullReferenceException)
+            {
+                MessageBox.Show("город не выбран, или имя города не корректно");
+            }
+           
 
         }
 
